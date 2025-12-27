@@ -14,10 +14,10 @@ public class FactorialNumber {
         Scanner input = new Scanner(System.in);
         
         //Taking user input
-        System.out.println("Please enter an integer number for calculating factorial : ");
+        System.out.print("Please enter an integer number for calculating factorial : ");
         int n = input.nextInt();
         
-        int factorial = 1;
+        long factorial = 1;
         
         //Loop for factorial calculation.
         for (int i = 1; i <= n; i++) {

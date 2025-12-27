@@ -21,7 +21,7 @@ public class FibonacciNumber {
         // Loop until user enters a positive number
         do {
             //For taking user input.
-           System.out.println("Enter position (n) for calculating fibonacci number: ");
+           System.out.print("Enter position (n) for calculating fibonacci number: ");
            n = input.nextInt(); 
            
            //Cheak the user input.
